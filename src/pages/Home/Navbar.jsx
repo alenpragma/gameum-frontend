@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo/logo.png"
 
 
 const Navbar = () => {
@@ -16,7 +17,9 @@ const Navbar = () => {
         <div className="max-w-[2480px] bg-[#335560]">
             <div className="navbar max-w-7xl mx-auto ">
                 <div className="navbar-start">
-                    <a className="btn btn-ghost normal-case text-xl text-white">Gamium</a>
+                    <Link className="btn btn-ghost normal-case text-xl text-white">
+                    <img className="w-40" src={logo} alt="" />
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-white font-bold uppercase">
@@ -24,6 +27,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
+                <button className="px-3 py-2 bg-[#0A2A60] text-white rounded-xl lg:mr-5">Buy G1 Token</button>
                     <div className="dropdown dropdown-end">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             {icon}
@@ -32,7 +36,7 @@ const Navbar = () => {
                             {navItem}
                         </ul>
                     </div>
-                    <button className="px-3 py-2 bg-[#0A2A60] text-white rounded-xl lg:mr-5">Buy G1 Token</button>
+                   
                 </div>
             </div>
         </div>
