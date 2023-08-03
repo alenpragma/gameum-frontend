@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo/logo.png"
 
@@ -6,15 +7,15 @@ const Navbar = () => {
     const icon = <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
     const navItem = <>
         <li><Link>Home</Link></li>
-        <li><Link>G1 Details</Link></li>
-        <li><Link>TokenMics</Link></li>
+        <li><Link to="#details">G1 Details</Link></li>
+        <li><Link to="">TokenMics</Link></li>
         <li><Link>Roadmap</Link></li>
         <li><Link>News</Link></li>
         <li><Link>Login</Link></li>
-        <li><Link>Register</Link></li>
+        <li><Link to="register">Register</Link></li>
     </>
     return (
-        <div className="max-w-[2480px] bg-[#335560]">
+        <div className="max-w-full bg-[#335560]">
             <div className="navbar max-w-7xl mx-auto ">
                 <div className="navbar-start">
                     <Link className="btn btn-ghost normal-case text-xl text-white">
@@ -36,8 +37,10 @@ const Navbar = () => {
                             {navItem}
                         </ul>
                     </div>
-                   
                 </div>
+            </div>
+            <div>
+
             </div>
         </div>
     );
