@@ -11,7 +11,7 @@ const Roadmap = () => {
                     <Title title="Roadmap" />
                     <Description description="We are committed to the transparency and accountability of our brands. Check out upcoming milestones on Gameum’s journey from seed through implementation." />
                 </div>
-                <div className="lg:grid grid-cols-3 gap-5">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
                     {
                         roadmap.map(data => <div className="shadow-xl bg-gradient-to-r from-[#86EFAC] to-[#877171] lg:mt-5 mt-5 rounded" key={data.id}>
                             <div className="card-body py-5">

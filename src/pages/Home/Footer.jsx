@@ -1,8 +1,8 @@
 
 const Footer = () => {
     return (
-        <div className="bg-base-300">
-            <footer className="footer max-w-7xl mx-auto p-10  text-base-content">
+        <div className="bg-gradient-to-r from-[#161D2C] to-[#161D2C] text-white">
+            <footer className="footer max-w-7xl mx-auto p-10">
                 <div>
                 <span className="footer-title">Address</span>
                     <p>121 Rock Street, 21 Avinue</p>

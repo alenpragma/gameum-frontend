@@ -1,5 +1,13 @@
 import tokenImage from "../assets/logo/crypto_market_research.png"
 
+
+import img1 from '../assets/team/general-manager.png';
+import img2 from '../assets/team/graphics-design.png';
+import img3 from '../assets/team/crypto_market.png';
+import img4 from '../assets/team/Account-manager.png';
+import img5 from '../assets/team/social-media-manager.png';
+import img6 from '../assets/team/content-writer.png';
+
 export const navLinks = [
     {
         id: "home",
@@ -168,5 +176,38 @@ export const roadmap = [
         item1: "GameFi",
         item2: "Decentralized Exchange",
         item3: "Decentralized Lending Finance"
+    },
+]
+
+export const team = [
+    {
+        id: "team_001",
+        img: img1,
+        title: "General Manager"
+    },
+    {
+        id: "team_002",
+        img: img2,
+        title: "Graphics Design"
+    },
+    {
+        id: "team_003",
+        img: img3,
+        title: "Crypto Market"
+    },
+    {
+        id: "team_004",
+        img: img4,
+        title: "Account Manager"
+    },
+    {
+        id: "team_005",
+        img: img5,
+        title: "Social Media Manager"
+    },
+    {
+        id: "team_006",
+        img: img6,
+        title: "Content Writer"
     },
 ]
