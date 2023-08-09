@@ -211,3 +211,37 @@ export const team = [
         title: "Content Writer"
     },
 ]
+
+
+export const questions = [
+    {
+        id: 1,
+        question: "what is Accordion?",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus corrupti earum et, cum ad tenetur deleniti sed labore ut. Iste iure quos dolorem laboriosam autem nulla reiciendis tenetur perferendis illo!"
+    },
+    {
+        id: 2,
+        question: "what is Accordion?",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus corrupti earum et, cum ad tenetur deleniti sed labore ut. Iste iure quos dolorem laboriosam autem nulla reiciendis tenetur perferendis illo!"
+    },
+    {
+        id: 3,
+        question: "what is Accordion?",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus corrupti earum et, cum ad tenetur deleniti sed labore ut. Iste iure quos dolorem laboriosam autem nulla reiciendis tenetur perferendis illo!"
+    },
+    {
+        id: 4,
+        question: "what is Accordion?",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus corrupti earum et, cum ad tenetur deleniti sed labore ut. Iste iure quos dolorem laboriosam autem nulla reiciendis tenetur perferendis illo!"
+    },
+    {
+        id: 5,
+        question: "what is Accordion?",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus corrupti earum et, cum ad tenetur deleniti sed labore ut. Iste iure quos dolorem laboriosam autem nulla reiciendis tenetur perferendis illo!"
+    },
+    {
+        id: 6,
+        question: "what is Accordion?",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus corrupti earum et, cum ad tenetur deleniti sed labore ut. Iste iure quos dolorem laboriosam autem nulla reiciendis tenetur perferendis illo!"
+    }
+]

@@ -1,3 +1,4 @@
+
 import Blog from "./Blog";
 import Details from "./Details";
 import Documents from "./Documents";
@@ -14,8 +15,8 @@ const Home = () => {
             <Hero />
             <Details />
             <Token />
-            <Roadmap />
             <Blog />
+            <Roadmap />
             <Team />
             <Partner />
             <Documents />

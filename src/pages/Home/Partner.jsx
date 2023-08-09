@@ -22,20 +22,20 @@ const Partner = () => {
             </div>
             <div className="my-20">
                 <div className="max-w-6xl mx-auto grid lg:grid-cols-4 md:grid-col md:grid-cols-3 grid-cols-2">
-                    <div className=" border-b border-r border-[#837D7D] w-auto h-52 flex justify-center items-center">
+                    <div className=" border-b border-r border-[#837D7D] w-auto H-52 flex justify-center items-center">
                         <img className="w-full" src={img6} alt="" />
                     </div>
                     <div className=" border-b lg:border-r md:border-r border-[#837D7D] w-auto h-52 flex justify-center items-center">
-                        <img src={img2} alt="" />
+                        <img className="w-full" src={img2} alt="" />
                     </div>
                     <div className=" border-b border-r md:border-r-0 lg:border-r border-[#837D7D] w-auto h-52 flex justify-center items-center">
-                        <img src={img3} alt="" />
+                        <img className="w-full" src={img3} alt="" />
                     </div>
-                    <div className=" border-b lg:border-r-0 md:border-r lg:border-b-0 border-[#837D7D] w-auto h-52 flex justify-center items-center">
-                        <img src={img4} alt="" />
+                    <div className=" border-b lg:border-r-0 md:border-r border-[#837D7D] w-auto h-52 flex justify-center items-center">
+                        <img className="w-full" src={img4} alt="" />
                     </div>
                     <div className=" border-r border-b lg:border-b-0 border-[#837D7D] w-auto h-52 flex justify-center items-center">
-                        <img src={img5} alt="" />
+                        <img className="w-full" src={img5} alt="" />
                     </div>
                     <div className="lg:border-r lg:border-b-0 md:border-b border-b border-[#837D7D] w-auto h-52 flex justify-center items-center">
                         <img className="w-full" src={img6} alt="" />
@@ -43,8 +43,8 @@ const Partner = () => {
                     <div className="border-r border-[#837D7D] w-auto h-52 flex justify-center items-center">
                         <img className="w-full" src={img7} alt="" />
                     </div>
-                    <div className="lg:border-t md:border-r lg:border-r-0 border-[#837D7D] w-auto h-52 flex justify-center items-center">
-                        <img src={img8} alt="" />
+                    <div className="md:border-r lg:border-r-0 border-[#837D7D] w-auto h-52 flex justify-center items-center">
+                        <img className="w-full" src={img8} alt="" />
                     </div>
                 </div>
             </div>

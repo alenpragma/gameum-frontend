@@ -1,7 +1,7 @@
 import { detailSideItem, details } from "../../components";
 import Description from "../../components/Description";
-import Title from "../../components/title";
 import background from '../../assets/banner/background.jpg'
+import Title from "../../components/title";
 
 
 const Details = () => {
@@ -29,7 +29,7 @@ const Details = () => {
                                 detailSideItem.map(data => <div key={data.id} className="lg:flex items-start gap-10">
                                     <p className="lg:w-6/12 font-bold lg:flex justify-end">{data.title}</p>
                                     <p className="lg:w-6/12 m-0">{data.element}</p>
-                                </div>)
+                                </div>) 
                             }
                         </div>
                     </div>

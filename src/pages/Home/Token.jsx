@@ -1,5 +1,4 @@
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
-import { Circle } from 'rc-progress';
 import { token } from "../../components";
 import Description from "../../components/Description";
 import Title from "../../components/title";
@@ -14,16 +13,17 @@ const Token = () => {
                 </div>
                 <div className="lg:grid grid-cols-3 gap-10">
                     {
-                        token.map(data => <div className="rounded lg:mt-0 mt-5 h-[300px] bg-green-300" key={data.id}>
+                        token.map(data => <div className="rounded lg:mt-0 mt-5 h-[300px] bg-[#446682]" key={data.id}>
                             <div className="card-body flex flex-col justify-center items-center">
                                 <img className="w-52" src={data.img} alt="" />
-                                <h2 className="card-title">
+                                <h2 className="card-title text-white">
                                     {data.title}
-
                                 </h2>
 
                                 <div className="-mt-64 -ml-56" style={{ width: "100px", position: 'relative' }}>
+                               
                                     <CircularProgressbar
+                                    className="flex justify-center items-center"
                                         value={data.ratings}
                                         text={`${data.ratings}%`}
                                         styles={buildStyles({
