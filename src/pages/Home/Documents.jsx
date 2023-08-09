@@ -1,13 +1,14 @@
-import Title from "../../components/title";
+
 import background from '../../assets/banner/token-supply-bg.jpg'
 import { ImFilePdf } from "react-icons/im";
 import { GoCheckbox } from "react-icons/go";
 import { RxPencil2 } from "react-icons/rx";
 import { FaCartShopping } from "react-icons/fa6";
+import Title from '../../components/title';
 
 const Documents = () => {
     return (
-        <section className=" lg:mx-0 mx-5 document-style" style={{ backgroundImage: `url(${background})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
+        <section className="document-style" style={{ backgroundImage: `url(${background})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
             <div className="document-body">
                 <div className="max-w-6xl mb-5 mx-auto">
                     <div className="lg:w-1/2 mx-auto text-white">
@@ -15,7 +16,7 @@ const Documents = () => {
                     </div>
                 </div>
                 <div className="max-w-6xl grid lg:grid-cols-4 md:grid-cols-2 gap-5">
-                    <div className="lg:w-52 w-96 bg-white hover:bg-yellow-400 hover:text-white rounded shadow-xl card">
+                    <div className="lg:w-52 w-80 bg-white hover:bg-yellow-400 hover:text-white rounded shadow-xl card">
                         <div className="card-body text-center">
                             <div className="space-y-7 flex flex-col justify-center items-center">
                                 <p className="text-5xl"><ImFilePdf /> </p>
@@ -26,7 +27,7 @@ const Documents = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-52 w-96 bg-white hover:bg-yellow-400 hover:text-white rounded shadow-xl">
+                    <div className="lg:w-52 w-80 bg-white hover:bg-yellow-400 hover:text-white rounded shadow-xl">
                         <div className="card-body text-center">
                             <div className="space-y-7 flex flex-col justify-center items-center">
                                 <p className="text-5xl"><GoCheckbox /> </p>
@@ -37,7 +38,7 @@ const Documents = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-52 w-96 bg-white hover:bg-yellow-400 hover:text-white rounded shadow-xl">
+                    <div className="lg:w-52 w-80 bg-white hover:bg-yellow-400 hover:text-white rounded shadow-xl">
                         <div className="card-body text-center">
                             <div className="space-y-7 flex flex-col justify-center items-center">
                                 <p className="text-5xl"><RxPencil2 /> </p>
@@ -48,7 +49,7 @@ const Documents = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-52 w-96 bg-white hover:bg-yellow-400 hover:text-white rounded shadow-xl">
+                    <div className="lg:w-52 w-80 bg-white hover:bg-yellow-400 hover:text-white rounded shadow-xl">
                         <div className="card-body text-center">
                             <div className="space-y-7 flex flex-col justify-center items-center">
                                 <p className="text-5xl"><FaCartShopping /> </p>

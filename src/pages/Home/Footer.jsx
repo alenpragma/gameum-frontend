@@ -9,11 +9,10 @@ const Footer = () => {
                     <p>New-York</p>
                 </div>
                 <div>
-                    <span className="footer-title">Company</span>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
+                    <span className="footer-title">Importent Menu</span>
+                    <a className="link link-hover">Token us</a>
+                    <a className="link link-hover">Roadmap</a>
+                    <a className="link link-hover">News</a>
                 </div>
                 <div>
                     <span className="footer-title">Social</span>

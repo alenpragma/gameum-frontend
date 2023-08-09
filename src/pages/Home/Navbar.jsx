@@ -15,8 +15,8 @@ const Navbar = () => {
         <li><Link to="register">Register</Link></li>
     </>
     return (
-        <div className="max-w-full bg-[#335560]">
-            <div className="navbar max-w-7xl mx-auto ">
+        <div className="max-w-full bg-[#335560] relative">
+            <div className="navbar max-w-7xl mx-auto sticky">
                 <div className="navbar-start">
                     <Link className="btn btn-ghost normal-case text-xl text-white">
                     <img className="w-40" src={logo} alt="" />

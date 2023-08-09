@@ -12,7 +12,7 @@ const Details = () => {
                     <Title title="G1 Details" />
                     <Description description="Private Sale dates: March 31th, 2022" />
                 </div>
-                <div className="lg:max-w-6xl mx-auto bg-[rgba(39,39,39,0.73)] lg:flex rounded  p-10">
+                <div className="lg:max-w-6xl mx-auto bg-[rgba(39,39,39,0.37)] lg:flex rounded  p-10">
                     <div className="lg:w-8/12">
                         <div className="space-y-8">
                             {

@@ -11,6 +11,7 @@ import img7 from '../../assets/logo/7.jpg';
 import img8 from '../../assets/logo/8.jpg';
 
 
+
 const Partner = () => {
     return (
         <section className="m-10 mx-5">
@@ -23,7 +24,7 @@ const Partner = () => {
             <div className="my-20">
                 <div className="max-w-6xl mx-auto grid lg:grid-cols-4 md:grid-col md:grid-cols-3 grid-cols-2">
                     <div className=" border-b border-r border-[#837D7D] w-auto H-52 flex justify-center items-center">
-                        <img className="w-full" src={img6} alt="" />
+                        <img className="w-full" src={img1} alt="" />
                     </div>
                     <div className=" border-b lg:border-r md:border-r border-[#837D7D] w-auto h-52 flex justify-center items-center">
                         <img className="w-full" src={img2} alt="" />
