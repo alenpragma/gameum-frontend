@@ -4,7 +4,6 @@ import { ImFilePdf } from "react-icons/im";
 import { GoCheckbox } from "react-icons/go";
 import { RxPencil2 } from "react-icons/rx";
 import { FaCartShopping } from "react-icons/fa6";
-import Title from '../../components/title';
 import Heading from '../../components/Heading';
 
 const Documents = () => {
