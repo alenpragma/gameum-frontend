@@ -1,9 +1,18 @@
 
+// const Title = ({ title }) => {
+//     return (
+//         <div>
+//             <h2 className="text-3xl font-bold text-center">{title}</h2>
+//         </div>
+//     );
+// };
 
-const Title = ({ title }) => {
+// export default Title;
+
+const Title = ({title}) => {
     return (
         <div>
-            <h2 className="text-3xl font-bold text-center">{title}</h2>
+            <p className="text-center">{title}</p>
         </div>
     );
 };

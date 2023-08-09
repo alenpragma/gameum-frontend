@@ -1,7 +1,7 @@
 
 import { roadmap } from "../../components";
 import Description from "../../components/Description";
-import Title from "../../components/title";
+import Heading from "../../components/Heading";
 
 
 const Roadmap = () => {
@@ -9,7 +9,7 @@ const Roadmap = () => {
         <section className="m-10 mx-5" id="token">
             <div className="max-w-6xl mx-auto">
                 <div className="space-y-5 my-10 lg:w-1/2 mx-auto">
-                    <Title title="Roadmap" />
+                    <Heading heading="Roadmap" />
                     <Description description="We are committed to the transparency and accountability of our brands. Check out upcoming milestones on Gameum’s journey from seed through implementation." />
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">

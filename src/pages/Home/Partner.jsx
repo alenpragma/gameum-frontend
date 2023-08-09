@@ -1,5 +1,4 @@
 import Description from "../../components/Description";
-import Title from "../../components/title";
 
 import img1 from '../../assets/logo/1.jpg';
 import img2 from '../../assets/logo/2.jpg';
@@ -9,6 +8,7 @@ import img5 from '../../assets/logo/5.jpg';
 import img6 from '../../assets/logo/6.jpg';
 import img7 from '../../assets/logo/7.jpg';
 import img8 from '../../assets/logo/8.jpg';
+import Heading from "../../components/Heading";
 
 
 
@@ -17,7 +17,7 @@ const Partner = () => {
         <section className="m-10 mx-5">
             <div className="max-w-6xl mx-auto">
                 <div className="space-y-5 my-10 lg:w-1/2 mx-auto">
-                    <Title title="Gameum Partners" />
+                    <Heading heading="Gameum Partners" />
                     <Description description="We help out different accomplices to assist with adapting their gaming content and broaden our games portfolio and activities." />
                 </div>
             </div>

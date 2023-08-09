@@ -1,7 +1,7 @@
 import { detailSideItem, details } from "../../components";
 import Description from "../../components/Description";
 import background from '../../assets/banner/background.jpg'
-import Title from "../../components/title";
+import Heading from "../../components/Heading";
 
 
 const Details = () => {
@@ -9,7 +9,7 @@ const Details = () => {
         <div className="section-style" style={{backgroundImage: `url(${background})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
             <div className="section-body">
                 <div className="space-y-5 my-10">
-                    <Title title="G1 Details" />
+                    <Heading heading="G1 Details" />
                     <Description description="Private Sale dates: March 31th, 2022" />
                 </div>
                 <div className="lg:max-w-6xl mx-auto bg-[rgba(39,39,39,0.37)] lg:flex rounded  p-10">

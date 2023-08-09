@@ -5,6 +5,7 @@ import { GoCheckbox } from "react-icons/go";
 import { RxPencil2 } from "react-icons/rx";
 import { FaCartShopping } from "react-icons/fa6";
 import Title from '../../components/title';
+import Heading from '../../components/Heading';
 
 const Documents = () => {
     return (
@@ -12,7 +13,7 @@ const Documents = () => {
             <div className="document-body">
                 <div className="max-w-6xl mb-5 mx-auto">
                     <div className="lg:w-1/2 mx-auto text-white">
-                        <Title title="Documents" />
+                        <Heading heading="Documents" />
                     </div>
                 </div>
                 <div className="max-w-6xl grid lg:grid-cols-4 md:grid-cols-2 gap-5">
