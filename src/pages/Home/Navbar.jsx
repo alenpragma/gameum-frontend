@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="max-w-full bg-[#335560] relative">
             <div className="navbar max-w-7xl mx-auto sticky">
                 <div className="navbar-start">
-                    <Link className="btn btn-ghost normal-case text-xl text-white">
+                    <Link className="">
                         <img className="w-40" src={logo} alt="" />
                     </Link>
                 </div>
@@ -25,9 +25,9 @@ const Navbar = () => {
                                 key={nav.id}
                                 className={`font-poppins font-normal cursor-pointer text-[16px] ${i === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white mr-10`}
                             >
-                                <a href={`#${nav.id}`} className="uppercase font-semibold">
+                                <Link to={`#${nav.id}`} className="uppercase font-semibold">
                                     {nav.title}
-                                </a>
+                                </Link>
                             </li>
                         ))}
                     </ul>
