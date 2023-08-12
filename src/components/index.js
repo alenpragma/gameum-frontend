@@ -10,7 +10,7 @@ import img6 from '../assets/team/content-writer.png';
 
 export const navLinks = [
     {
-        id: "home",
+        id: "/",
         title: "Home",
     },
     {

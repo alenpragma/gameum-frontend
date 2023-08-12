@@ -25,7 +25,7 @@ const Navbar = () => {
                                 key={nav.id}
                                 className={`font-poppins font-normal cursor-pointer text-[16px] ${i === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white mr-10`}
                             >
-                                <Link to={`#${nav.id}`} className="uppercase font-semibold">
+                                <Link to={`${nav.id}`} className="uppercase font-semibold">
                                     {nav.title}
                                 </Link>
                             </li>
