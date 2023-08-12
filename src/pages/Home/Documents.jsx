@@ -3,9 +3,10 @@ import background from '../../assets/banner/token-supply-bg.jpg'
 import { ImFilePdf } from "react-icons/im";
 import { GoCheckbox } from "react-icons/go";
 import { RxPencil2 } from "react-icons/rx";
-import { FaCartShopping } from "react-icons/fa6";
+import { SlEarphonesAlt } from "react-icons/sl";
 import Heading from '../../components/Heading';
 import pdf from "../../assets/gameum.pdf";
+import { Link } from 'react-router-dom';
 
 const Documents = () => {
     return (
@@ -24,8 +25,7 @@ const Documents = () => {
                                 <p>White Paper</p>
                             </div>
                             <div className="mt-16 ">
-                                {/* <DownloadPdf pdfUrl={pdf} /> */}
-                                <button className="text-2xl font-semibold relative uppercase button-details" onClick={() => window.open(`${pdf}`, '_blank')}>Download</button>
+                                <button className="text-[20px] font-semibold relative uppercase button-details" onClick={() => window.open(`${pdf}`, '_blank')}>Download</button>
                             </div>
                         </div>
                     </div>
@@ -33,10 +33,12 @@ const Documents = () => {
                         <div className="card-body text-center">
                             <div className="space-y-7 flex flex-col justify-center items-center">
                                 <p className="text-5xl"><GoCheckbox /> </p>
-                                <p>Terms & Conditions</p>
+                                <p>Staking</p>
                             </div>
                             <div className="mt-16 ">
-                                <button className="text-2xl font-semibold relative uppercase button-details">Download</button>
+                                <a href="https://g1.gameum.one/login">
+                                    <button className="text-[20px] font-semibold relative uppercase button-details">Staking Now</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -47,18 +49,20 @@ const Documents = () => {
                                 <p>Risk Analysis</p>
                             </div>
                             <div className="mt-16 ">
-                                <button className="text-2xl font-semibold relative uppercase button-details">Download</button>
+                                <button className="text-[20px] font-semibold relative uppercase button-details">Download</button>
                             </div>
                         </div>
                     </div>
                     <div className="lg:w-52 w-80 bg-white hover:bg-yellow-400 hover:text-white rounded shadow-xl">
                         <div className="card-body text-center">
                             <div className="space-y-7 flex flex-col justify-center items-center">
-                                <p className="text-5xl"><FaCartShopping /> </p>
-                                <p>Join Private Sale</p>
+                                <p className="text-5xl"><SlEarphonesAlt /> </p>
+                                <p>24/7 Support</p>
                             </div>
                             <div className="mt-16 ">
-                                <button className="text-2xl font-semibold relative uppercase button-details">Download</button>
+                                <Link to="contact">
+                                    <button className="text-[20px] font-semibold relative uppercase button-details">Help Center</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
