@@ -11,8 +11,8 @@ const Hero = () => {
 
                 </div>
                 <div className="mt-5 lg:flex justify-center gap-3">
-                    <button className="button lg:mb-0 mb-5">Join Private Sale</button><br />
-                    <button className="button">Whitepaper</button>
+                    <button className="button lg:mb-0 mb-5">Sign Up</button><br />
+                    <button className="button">Login</button>
                 </div>
             </div>
         </div>

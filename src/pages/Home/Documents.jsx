@@ -5,6 +5,8 @@ import { GoCheckbox } from "react-icons/go";
 import { RxPencil2 } from "react-icons/rx";
 import { FaCartShopping } from "react-icons/fa6";
 import Heading from '../../components/Heading';
+import DownloadPdf from '../../components/DownloadPdf';
+import pdf from "../../assets/gameum.pdf"
 
 const Documents = () => {
     return (
@@ -23,7 +25,7 @@ const Documents = () => {
                                 <p>White Paper</p>
                             </div>
                             <div className="mt-16 ">
-                                <button className="text-2xl font-semibold relative uppercase button-details">Download</button>
+                                <DownloadPdf pdfUrl={pdf} />
                             </div>
                         </div>
                     </div>

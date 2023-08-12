@@ -19,19 +19,19 @@ export const navLinks = [
     },
     {
         id: "token",
-        title: "Token Mics",
+        title: "TokenMics",
+    },
+    {
+        id: "roadmap",
+        title: "Roadmap",
+    },
+    {
+        id: "team",
+        title: "Team",
     },
     {
         id: "news",
         title: "News",
-    },
-    {
-        id: "login",
-        title: "Login",
-    },
-    {
-        id: "register",
-        title: "Register",
     },
 ]
 

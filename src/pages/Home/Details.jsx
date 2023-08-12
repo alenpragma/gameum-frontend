@@ -6,11 +6,11 @@ import Heading from "../../components/Heading";
 
 const Details = () => {
     return (
-        <div className="section-style" style={{backgroundImage: `url(${background})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
+        <div className="section-style" id="details" style={{backgroundImage: `url(${background})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
             <div className="section-body">
                 <div className="space-y-5 my-10">
-                    <Heading heading="G1 Details" />
-                    <Description description="Private Sale dates: March 31th, 2022" />
+                    <Heading heading="Gameum Token(G1) Details" />
+                    <Description description="Play to Earn Gaming Cryptocurrency" />
                 </div>
                 <div className="lg:max-w-6xl mx-auto bg-[rgba(39,39,39,0.37)] lg:flex rounded  p-10">
                     <div className="lg:w-8/12">
