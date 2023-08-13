@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import Swal from 'sweetalert2';
+import {  ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Copytext = ({ text }) => {
     const [isCopied, setIsCopied] = useState(false);
@@ -7,23 +8,18 @@ const Copytext = ({ text }) => {
     const handleCopy = () => {
         navigator.clipboard.writeText(text);
         setIsCopied(true);
-        setTimeout(() => setIsCopied(false), 2000);
+        setTimeout(() => {
+            setIsCopied(false), 500;
+            toast("Text Coppid")
+        });
     };
-    if (isCopied) {
-        Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Coppied Text',
-            showConfirmButton: false,
-            timer: 1500
-        })
-    }
 
     return (
         <div>
             <span onClick={handleCopy} className='font-bold bg-yellow-500 cursor-pointer rounded text-[14px] p-2 lg:max-w-none max-w-[100px]'>
                 {text}
             </span>
+            <ToastContainer />
         </div>
     );
 };

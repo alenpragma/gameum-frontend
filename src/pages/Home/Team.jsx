@@ -8,7 +8,7 @@ import Heading from '../../components/Heading';
 
 const Team = () => {
     return (
-        <section className="m-10 mx-5" id="token">
+        <section className="m-10 mx-5" id="team">
             <div className="max-w-6xl mx-auto">
                 <div className="space-y-5 my-10 lg:w-1/2 mx-auto">
                     <Heading heading="Gameum Team" />

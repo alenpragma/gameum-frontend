@@ -11,7 +11,7 @@ import Token from "./Token";
 
 const Home = () => {
     return (
-        <div id="home">
+        <div>
             <Hero />
             <Details />
             <Token />
