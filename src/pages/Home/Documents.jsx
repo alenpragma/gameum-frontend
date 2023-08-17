@@ -46,7 +46,7 @@ const Documents = () => {
                         <div className="card-body text-center">
                             <div className="space-y-7 flex flex-col justify-center items-center">
                                 <p className="text-5xl"><RxPencil2 /> </p>
-                                <p>Blackchain List</p>
+                                <p>Explorer</p>
                             </div>
                             <div className="mt-16">
                                 <button  onClick={() => window.open(`https://bscscan.com/address/0xa670d686d93e6410317d6648667daf848bbde995`, '_blank')} className="text-[20px] font-semibold relative  button-details">BscScan</button>

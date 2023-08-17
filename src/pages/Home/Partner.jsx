@@ -7,16 +7,16 @@ import img4 from '../../assets/partner/4.png';
 import img5 from '../../assets/partner/5.png';
 import img6 from '../../assets/partner/6.png';
 import img7 from '../../assets/partner/7.png';
-import img8 from '../../assets/partner/7.png';
+import img8 from '../../assets/partner/8.png';
 import Heading from "../../components/Heading";
 
 
 
 const Partner = () => {
     return (
-        <section className="lg:mx-0 px-5 bg-[#ced2d7]">
+        <section className="py-10 lg:px-0 px-5 bg-[#E9E9E9]">
             <div className="max-w-6xl mx-auto">
-                <div className="space-y-5 my-10 lg:w-1/2 mx-auto">
+                <div className="space-y-5 mb-10 lg:w-1/2 mx-auto">
                     <Heading heading="Gameum Partners" />
                     <Description description="We help out different accomplices to assist with adapting their gaming content and broaden our games portfolio and activities." />
                 </div>

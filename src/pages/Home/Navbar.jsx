@@ -33,7 +33,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link className="px-3 py-1 bg-[#47627A] rounded-md text-white lg:mr-0 mr-5">Register</Link>
+                    <Link className="px-3 py-1 bg-[#0372EA] hover:bg-[#4875a6] rounded-md text-white lg:mr-0 mr-5">Register</Link>
                     <div className='flex flex-col justify-end items-center lg:hidden'>
                         <img
                             src={toggle ? close : menu}
