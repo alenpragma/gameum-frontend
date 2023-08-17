@@ -1,12 +1,10 @@
 
 
-
 import { navLinks } from "../../components";
 import { useState } from "react";
 import menu from '../../assets/logo/menu.svg';
 import close from '../../assets/logo/close.svg';
 import { Link } from "react-scroll";
-// import { Link } from "react-router-dom";
 import Logo from "../shared/Logo";
 import HomeButton from "../shared/HomeButton";
 
@@ -14,14 +12,14 @@ const Navbar = () => {
 
     const [toggle, setToggle] = useState(false)
     return (
-        <div className="max-w-full bg-[#335560]">
+        <div className="max-w-full bg-[#335560] sticky top-0 z-[7000]">
             <div className="navbar max-w-7xl mx-auto">
                 <div className="navbar-start">
                     <Logo />
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
-                      <HomeButton />
+                        <HomeButton />
                         {navLinks.map((nav, i) => (
                             <li
                                 key={nav.id}
@@ -45,14 +43,15 @@ const Navbar = () => {
                         />
                         <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-[#335560] absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
                             <ul className='list-none flex flex-col justify-end items-center flex-1'>
+                                <HomeButton />
                                 {navLinks.map((nav, i) => (
                                     <li
                                         key={nav.id}
                                         className={`font-poppins font-normal cursor-pointer text-[16px] ${i === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white mr-10`}
                                     >
-                                        <a href={`#${nav.id}`}>
+                                        <Link to={`${nav.id}`} className="uppercase font-semibold" smooth={true} duration={1000}>
                                             {nav.title}
-                                        </a>
+                                        </Link>
                                     </li>
                                 ))}
                             </ul>

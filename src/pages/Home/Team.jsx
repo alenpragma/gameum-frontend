@@ -8,17 +8,17 @@ import Heading from '../../components/Heading';
 
 const Team = () => {
     return (
-        <section className="m-10 mx-5" id="team">
-            <div className="max-w-6xl mx-auto">
+        <section className="m-10 mx-5 relative" id="team">
+            <div className="max-w-5xl mx-auto">
                 <div className="space-y-5 my-10 lg:w-1/2 mx-auto">
                     <Heading heading="Gameum Team" />
                     <Description description="Gameum is established by a founding team with huge experience in tech and blockchain. We are on the whole energetic and diligent toward building Gameum as a Decentralized Gameum NFTs Marketplace for Play to Earn." />
                 </div>
-                <div className='grid lg:grid-cols-6 md:grid-col-3 gap-5 my-10'>
+                <div className='grid lg:grid-cols-3 md:grid-col-2 grid-cols-2 gap-5 my-10'>
                     {
-                        team.map(data => <div className="card glass expert-card" key={data.id}>
+                        team.map(data => <div className="card glass expert-card h-72 flex flex-col justify-center items-center" key={data.id}>
                             <div className='flex justify-center items-center'>
-                                <img className='w-32 p-5 rounded-full border-2 border-cyan-500 white-img' src={data.img} alt="" />
+                                <img className='w-52 p-5 rounded-full border-2 border-cyan-500 white-img' src={data.img} alt="" />
                             </div>
                             <div className="text-center my-5 space-y-2">
                                 <h2 className='font-bold'>{data.title}</h2>

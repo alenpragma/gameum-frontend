@@ -11,7 +11,7 @@ const Token = () => {
                     <Heading heading="Gameum Tokenomics" />
                     <Description description="$G1 is a cryptocurrency made exclusively for the exchange and transfer of value in the e-sports, variety gaming, NFTs, and video economy globally. $G1 has only 180 million of total supply and it will be listed on major exchanges as soon as it started the public sale." />
                 </div>
-                <div className="lg:grid grid-cols-3 gap-10">
+                <div className="grid lg:grid-cols-3 gap-10">
                     {
                         token.map(data => <div className="rounded lg:mt-0 mt-5 h-[300px] bg-[#446682]" key={data.id}>
                             <div className="card-body flex flex-col justify-center items-center">
