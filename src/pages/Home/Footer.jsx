@@ -35,10 +35,10 @@ const Footer = () => {
                     <div>
                         <span className="footer-title">Social</span>
                         <div className="grid grid-flow-col gap-4">
-                            <FaFacebook className='text-2xl' />
-                            <FaLinkedinIn className='text-2xl' />
-                            <FaYoutube className='text-2xl' />
-                            <FaTelegram className='text-2xl' />
+                            <FaFacebook onClick={() => window.open(`https://www.facebook.com/Gameum.one`, '_blank')} className='text-3xl cursor-pointer' />
+                            <FaLinkedinIn onClick={() => window.open(`https://www.linkedin.com/company/gameum1/`, '_blank')} className='text-3xl cursor-pointer' />
+                            <FaYoutube onClick={() => window.open(`https://www.youtube.com/@gameum-g1token17`, '_blank')} className='text-3xl cursor-pointer' />
+                            <FaTelegram onClick={() => window.open(`https://t.me/g1token`, '_blank')} className='text-3xl cursor-pointer' />
                         </div>
                     </div>
                 </div>
