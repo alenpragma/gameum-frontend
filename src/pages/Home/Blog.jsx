@@ -15,7 +15,7 @@ const Blog = () => {
                         <button className="blog-button-one">Buy G1 on G1Wallet</button><br />
                         <button  onClick={() => window.open(`https://bscscan.com/address/0xa670d686d93e6410317d6648667daf848bbde995`, '_blank')} className="blog-button-two">Buy G1 on Exchange</button>
                         
-                            <h2 className='text-2xl font-semibold text-center'>Our Official Contract Address</h2>
+                            <h2 className='text-2xl font-semibold text-center text-yellow-500'>Our Official Contract Address</h2>
                             <p className='mt-5'><Copytext text="0xa670d686d93e6410317d6648667daf848bbde995"/></p>
                         
                     </div>

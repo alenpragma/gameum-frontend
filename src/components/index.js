@@ -15,7 +15,7 @@ export const navLinks = [
     },
     {
         id: "token",
-        title: "TokenMics",
+        title: "Tokenomics",
     },
     {
         id: "roadmap",
