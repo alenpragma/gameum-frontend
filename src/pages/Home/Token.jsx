@@ -1,4 +1,4 @@
-import { CircularProgressbar, CircularProgressbarWithChildren, buildStyles } from "react-circular-progressbar";
+import {  CircularProgressbarWithChildren, buildStyles } from "react-circular-progressbar";
 
 
 import { token } from "../../components";
@@ -7,7 +7,7 @@ import Heading from "../../components/Heading";
 
 const Token = () => {
     return (
-        <section className="py-10 lg:px-0 px-5 bg-[#E9E9E9]" id="token">
+        <section className="py-10 lg:px-0 px-5 text-white" id="token">
             <div className="max-w-6xl mx-auto">
                 <div className="space-y-5 my-10 lg:w-1/2 mx-auto">
                     <Heading heading="Gameum Tokenomics" />
@@ -23,14 +23,15 @@ const Token = () => {
                                 </h2>
 
                                 <div className="-mt-64 -ml-52" style={{ width: "100px", position: 'relative' }}>
-                                    <CircularProgressbarWithChildren value={66}
+                                    <CircularProgressbarWithChildren value={data.ratings}
                                         styles={buildStyles({
                                             textSize: '24px',
                                             textColor: '#151515',
                                             pathColor: `#FF0000`,
                                             trailColor: '#d6d6d6',
+                                            backgroundColor: "#FFFF00"
                                         })}>
-                                        <div style={{ fontSize: 24, marginTop: -5 }}>
+                                        <div style={{ fontSize: 24, marginTop: -5, fontWeight: "bold", color: "white" }}>
                                             {data.ratings}%
                                         </div>
                                     </CircularProgressbarWithChildren>;
