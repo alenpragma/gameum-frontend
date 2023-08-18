@@ -13,11 +13,11 @@ const Blog = () => {
                         <p>When you buy $G1 tokens, you potentially profit from future price appreciation. Beyond price gains, you can stake $G1 tokens to start earning staking rewards daily.</p>
                         <p>Join the $G1 staking program and earn 11.42% per month and up to 68.5% annual for holding $G1.</p>
                         <button className="blog-button-one">Buy G1 on G1Wallet</button><br />
-                        <button className="blog-button-two">Buy G1 on Exchange</button>
-                        <div className="text-center">
-                            <h2 className='text-2xl font-semibold'>Our Official Contract Address</h2>
+                        <button  onClick={() => window.open(`https://bscscan.com/address/0xa670d686d93e6410317d6648667daf848bbde995`, '_blank')} className="blog-button-two">Buy G1 on Exchange</button>
+                        
+                            <h2 className='text-2xl font-semibold text-center'>Our Official Contract Address</h2>
                             <p className='mt-5'><Copytext text="0xa670d686d93e6410317d6648667daf848bbde995"/></p>
-                        </div>
+                        
                     </div>
                     <div className="lg:w-1/2 space-y-9 lg:mt-0 mt-10">
                         <div>

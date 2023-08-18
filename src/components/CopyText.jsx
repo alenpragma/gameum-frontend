@@ -16,7 +16,7 @@ const Copytext = ({ text }) => {
 
     return (
         <div>
-            <span onClick={handleCopy} className='font-bold bg-yellow-500 cursor-pointer rounded text-[14px] p-2 lg:max-w-none max-w-[100px]'>
+            <span onClick={handleCopy} className='font-bold bg-yellow-500 cursor-pointer rounded text-[14px] lg:text-[20px] p-2 lg:max-w-none'>
                 {text}
             </span>
             <ToastContainer />

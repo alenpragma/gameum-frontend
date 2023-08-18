@@ -16,12 +16,13 @@ const Team = () => {
                 </div>
                 <div className='grid lg:grid-cols-3 md:grid-col-2 grid-cols-2 gap-5 my-10'>
                     {
-                        team.map(data => <div className="card bg-white text-black glass expert-card h-72 flex flex-col justify-center items-center" key={data.id}>
+                        team.map(data => <div className="card bg-white text-black glass expert-card h-[320px] flex flex-col justify-center items-center" key={data.id}>
                             <div className='flex justify-center items-center'>
-                                <img className='w-52 p-5 rounded-full border-2 border-cyan-500 white-img' src='https://i.ibb.co/LSYS36V/male-man-icon.png' alt="" />
+                                <img className='w-52 p-5 rounded-full border-8 border-cyan-500 white-img' src='https://i.ibb.co/LSYS36V/male-man-icon.png' alt="" />
                             </div>
                             <div className="text-center my-5 space-y-2">
-                                <h2 className='font-bold'>{data.title}</h2>
+                                <h2 className='font-bold'>Micle Jaction</h2>
+                                <h2 className=''>{data.title}</h2>
                             </div>
                         </div>)
                     }

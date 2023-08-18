@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className='lg:w-4/12 text-[18px]'>
                     <img src={logo} alt="" />
                     <p>Gameum (G1) is the world’s fastest-growing community at the intersection of variety of gaming, e-sports, and blockchain.</p>
-                    <p className='mt-5'>65 St. Road, NY USA, Brooklyn, NY, United States, New York</p>
+                    <p className='mt-5'>65 St. Road, Brooklyn, NY, United States</p>
                 </div>
                 <div className='flex justify-around lg:w-8/12'>
                     <div className='flex flex-col justify-start items-start'>
