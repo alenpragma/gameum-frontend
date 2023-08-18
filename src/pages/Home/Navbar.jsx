@@ -25,7 +25,7 @@ const Navbar = () => {
                                 key={nav.id}
                                 className={`font-poppins font-normal cursor-pointer text-[16px] ${i === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white mr-10`}
                             >
-                                <Link to={`${nav.id}`} className="uppercase font-semibold" smooth={true} duration={1000}>
+                                <Link to={`${nav.id}`} className="uppercase font-semibold" smooth={true} duration={500}>
                                     {nav.title}
                                 </Link>
                             </li>
@@ -33,7 +33,9 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link className="px-3 py-1 bg-[#0372EA] hover:bg-[#4875a6] rounded-md text-white lg:mr-0 mr-5">Register</Link>
+                    <a href="https://g1.gameum.one/register">
+                        <button  className="px-3 py-1 bg-[#0372EA] hover:bg-[#4875a6] rounded-md text-white lg:mr-0 mr-5">Register</button><br />
+                    </a>
                     <div className='flex flex-col justify-end items-center lg:hidden'>
                         <img
                             src={toggle ? close : menu}

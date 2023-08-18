@@ -11,8 +11,13 @@ const Hero = () => {
 
                 </div>
                 <div className="mt-5 lg:flex justify-center gap-3">
-                    <button className="button lg:mb-0 mb-5">Sign Up</button><br />
+                    <a href="https://g1.gameum.one/register">
+                        <button className="button lg:mb-0 mb-5">Register</button><br />
+                    </a>
+                    <a href="https://g1.gameum.one/login">
                     <button className="button">Login</button>
+                    </a>
+                    
                 </div>
             </div>
         </div>

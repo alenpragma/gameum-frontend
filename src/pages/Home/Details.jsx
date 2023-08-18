@@ -6,7 +6,8 @@ import Heading from "../../components/Heading";
 
 const Details = () => {
     return (
-        <div className="section-style" id="details" style={{backgroundImage: `url(${background})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
+        // style={{backgroundImage: `url(${background})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover"}}
+        <div className="section-style bg-gradient-to-t from-[#262858] to-[#3944d2]" id="details" >
             <div className="section-body">
                 <div className="space-y-5 my-10">
                     <Heading heading="Gameum Token(G1) Details" />

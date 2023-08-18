@@ -7,7 +7,7 @@ import Heading from "../../components/Heading";
 
 const Token = () => {
     return (
-        <section className="py-10 lg:px-0 px-5 text-white" id="token">
+        <section className="py-10 lg:px-0 px-5 text-white bg-[#26285A]" id="token">
             <div className="max-w-6xl mx-auto">
                 <div className="space-y-5 my-10 lg:w-1/2 mx-auto">
                     <Heading heading="Gameum Tokenomics" />

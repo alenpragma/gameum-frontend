@@ -5,7 +5,7 @@ import Copytext from '../../components/CopyText';
 
 const Blog = () => {
     return (
-        <div className="lg:mx-0 mx-5 blog-style" id="details" style={{ backgroundImage: `url(${background})`, backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
+        <div className="lg:mx-0 mx-5 blog-style bg-[#262858]" id="details">
             <div className='blog-body'>
                 <div className="lg:max-w-6xl mx-auto bg-[rgba(39,39,39,0.73)] lg:flex gap-5 p-10">
                     <div className="lg:w-1/2 space-y-5">

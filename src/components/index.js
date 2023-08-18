@@ -9,10 +9,6 @@ import img5 from '../assets/team/social-media-manager.png';
 import img6 from '../assets/team/content-writer.png';
 
 export const navLinks = [
-    // {
-    //     id: "/",
-    //     title: "Home",
-    // },
     {
         id: "details",
         title: "G1 Details",
@@ -30,8 +26,8 @@ export const navLinks = [
         title: "Team",
     },
     {
-        id: "news",
-        title: "News",
+        id: "partner",
+        title: "Partner",
     },
 ]
 

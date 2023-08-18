@@ -8,7 +8,7 @@ import Heading from '../../components/Heading';
 
 const Team = () => {
     return (
-        <section className="lg:px-0 py-10 px-5 relative bg-gradient-to-r from-[#45767ea7] to-[#121212] text-white" id="team">
+        <section className="lg:px-0 py-20 px-5 relative bg-[#3944D0] text-white" id="team">
             <div className="max-w-5xl mx-auto">
                 <div className="space-y-5 mb-10 lg:w-1/2 mx-auto">
                     <Heading heading="Gameum Team" />

@@ -6,7 +6,7 @@ import Heading from "../../components/Heading";
 
 const Roadmap = () => {
     return (
-        <section className=" lg:px-0 py-10 px-5 text-white" id="roadmap">
+        <section className=" lg:px-0 py-10 px-5 text-white bg-gradient-to-b from-[#262858] via-[#262858] to-[#3944d2]" id="roadmap">
             <div className="max-w-6xl mx-auto">
                 <div className="space-y-5 my-10 lg:w-1/2 mx-auto">
                     <Heading heading="Roadmap" />

@@ -14,14 +14,14 @@
   @apply lg:h-[600px] h-auto text-white flex flex-col justify-center items-center 
 }
 .section-body{
-  @apply text-white lg:h-[600px] h-auto w-full flex flex-col justify-center items-center left-0 top-0 bg-[#231c4bc1]
+  @apply text-white lg:h-[600px] h-auto w-full flex flex-col justify-center items-center left-0 top-0
 }
 
 .blog-style{
   @apply lg:h-[700px] h-auto text-white flex flex-col justify-center items-center 
 }
 .blog-body{
-  @apply text-white lg:h-[700px] h-auto w-full flex flex-col justify-center items-center left-0 top-0 bg-gradient-to-r from-[#121212] via-[rgba(255,255,255,0.17)] to-[#121212]
+  @apply text-white lg:h-[700px] h-auto w-full flex flex-col justify-center items-center left-0 top-0
 }
 
 .document-style{
@@ -57,4 +57,10 @@
   width: 100%;
 }
 
-
+/* partner section style */
+.partner-body{
+  @apply border-[#837D7D] w-auto h-52 flex justify-center items-center
+}
+.img-style{
+  @apply w-full p-5 cursor-pointer
+}

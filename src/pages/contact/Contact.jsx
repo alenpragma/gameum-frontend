@@ -7,7 +7,7 @@ const Contact = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => console.log(data);
     return (
-        <div>
+        <div className="text-white">
             <div className="space-y-5 mb-10 pt-20 lg:w-1/2 mx-auto">
                 <Heading heading="Contact" />
                 <Description description="Contact With Us" />
