@@ -1,6 +1,5 @@
 import logo from '../../assets/logo/logo.png';
 import { FaFacebook, FaLinkedinIn, FaTelegram, FaYoutube } from "react-icons/fa";
-import HomeButton from '../shared/HomeButton';
 import { navLinks } from '../../components';
 import { Link } from 'react-scroll';
 
@@ -21,7 +20,6 @@ const Footer = () => {
                         <span className="footer-title">Importent Menu</span>
                         <div className="navbar-center">
                             <ul className='space-y-3'>
-                                <HomeButton />
                                 {navLinks.map((nav, i) => (
                                     <li
                                         key={nav.id}
