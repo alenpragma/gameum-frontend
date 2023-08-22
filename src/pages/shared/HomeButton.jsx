@@ -10,7 +10,7 @@ const HomeButton = () => {
             className={`font-poppins font-normal cursor-pointer text-[16px] text-white mr-10 mb-5 lg:mb-0`}
         >
             <Link to="/" className="uppercase font-semibold" smooth={true} duration={1000}>
-                <button onClick={goToBtn}>Home</button>
+                <button onClick={goToBtn}>HOME</button>
             </Link>
         </li>
     );

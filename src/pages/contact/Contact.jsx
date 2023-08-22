@@ -1,3 +1,4 @@
+import { FaFacebook, FaLinkedinIn, FaTelegram, FaYoutube } from "react-icons/fa";
 import Description from "../../components/Description";
 import Heading from "../../components/Heading";
 import { useForm } from "react-hook-form";
@@ -14,15 +15,23 @@ const Contact = () => {
             </div>
             <div className="lg:flex justify-center items-center max-w-7xl mx-auto pb-20">
                 <div className="lg:w-1/2 p-10 space-y-8">
-                   <div>
-                   <h2 className="text-2xl font-bold">Contact Information</h2>
-                    <p>Fill up the form and our team will get back to you within 24 hours.</p>
-                   </div>
-                    <p>youtube.com</p>
-                    <p>gameum@gmail.com</p>
-                    <p>65 St. Road, NY USA, Brooklyn, NY, United States, New York</p>
                     <div>
-                        <h2>Social</h2>
+                        <h2 className="text-2xl font-bold">Contact Information</h2>
+                        <p>Fill up the form and our team will get back to you within 24 hours.</p>
+                    </div>
+                    
+                    <div>
+                        <h2 className="text-[16px] font-bold">Address</h2>
+                        <p>65 St. Road, Brooklyn, NY, United States</p>
+                    </div>
+                    <div>
+                        <h2 className="text-[16px] font-bold">Social</h2>
+                        <div className="flex gap-3">
+                            <FaFacebook onClick={() => window.open(`https://www.facebook.com/Gameum.one`, '_blank')} className='text-3xl cursor-pointer' />
+                            <FaLinkedinIn onClick={() => window.open(`https://www.linkedin.com/company/gameum1/`, '_blank')} className='text-3xl cursor-pointer' />
+                            <FaYoutube onClick={() => window.open(`https://www.youtube.com/@gameum-g1token17`, '_blank')} className='text-3xl cursor-pointer' />
+                            <FaTelegram onClick={() => window.open(`https://t.me/g1token`, '_blank')} className='text-3xl cursor-pointer' />
+                        </div>
                     </div>
                 </div>
                 <div className="lg:w-1/2 p-10 shadow-lg shadow-slate-700 rounded">
@@ -40,7 +49,7 @@ const Contact = () => {
                             <input className="w-1/2 p-1 outline outline-1 outline-[#335560] rounded-md text-black" type="text" {...register("phone", { required: true })} placeholder="Phone Number" />
                         </div>
                         <div>
-                            <textarea className="p-2 rounded outline outline-1 outline-[#335560] h-24 w-full text-black" {...register("message", { required: true })}  placeholder="Message"></textarea>
+                            <textarea className="p-2 rounded outline outline-1 outline-[#335560] h-24 w-full text-black" {...register("message", { required: true })} placeholder="Message"></textarea>
                         </div>
 
                         <input className="w-full py-2 font-bold bg-[#0E69C6] rounded mt-4 text-white" type="submit" value="Submit Now" />
