@@ -2,6 +2,7 @@
 import Blog from "./Blog";
 import Details from "./Details";
 import Documents from "./Documents";
+import Faq from "./Faq";
 import Hero from "./Hero";
 import Partner from "./Partner";
 import Roadmap from "./Roadmap";
@@ -19,6 +20,7 @@ const Home = () => {
             <Roadmap />
             <Team />
             <Partner />
+            <Faq/>
             <Documents />
         </div>
     );
