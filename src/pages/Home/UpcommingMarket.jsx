@@ -25,7 +25,7 @@ const UpcommingMarket = () => {
       </div>
       <div className="pb-10">
         <div className="max-w-6xl mx-auto grid lg:grid-cols-4 md:grid-col md:grid-cols-3 grid-cols-2">
-          <div className=" border-b border-r partner-body">
+          <div className="  partner-body">
             <Link
               onClick={() =>
                 window.open(
@@ -43,7 +43,7 @@ const UpcommingMarket = () => {
               />
             </Link>
           </div>
-          <div className=" border-b lg:border-r md:border-r partner-body">
+          <div className=" partner-body">
             <Link
               onClick={() =>
                 window.open(
@@ -61,7 +61,7 @@ const UpcommingMarket = () => {
               />
             </Link>
           </div>
-          <div className=" border-b border-r md:border-r-0 lg:border-r partner-body">
+          <div className="   partner-body">
             <Link
               onClick={() =>
                 window.open(
@@ -77,7 +77,7 @@ const UpcommingMarket = () => {
               />
             </Link>
           </div>
-          <div className=" border-b lg:border-r-0 md:border-r partner-body">
+          <div className="  partner-body">
             <Link
               onClick={() =>
                 window.open(`https://coinsniper.net/coin/33191`, "_blank")
