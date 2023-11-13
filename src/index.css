@@ -64,3 +64,14 @@
 .img-style{
   @apply w-full p-5 cursor-pointer
 }
+/* collaps css */
+.ant-collapse{
+  border: 1px solid orange !important;
+}
+.ant-collapse-header{
+  
+  color:  #fff !important;
+}
+.ant-collapse>.ant-collapse-item{
+  border-bottom:1px solid orange !important;
+}

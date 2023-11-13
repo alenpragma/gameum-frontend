@@ -33,10 +33,14 @@ const Faq = () => {
             <Heading heading="FAQ" />
             </div>
             <div className="pb-10">
-                <div className="max-w-6xl mx-auto bg-[#d1d1d1] rounded-md">
+                <div className="max-w-6xl mx-auto flex gap-x-3 rounded-md">
                     <div className="w-full">
 
-                <Collapse className='w-full' items={items} defaultActiveKey={['1']} onChange={onChange} />
+                <Collapse className='w-full shadow-orange-500 shadow-lg' items={items} defaultActiveKey={['1']} onChange={onChange} />
+                    </div>
+                    <div className="w-full">
+
+                <Collapse className='w-full shadow-orange-500 shadow-lg' items={items} defaultActiveKey={['1']} onChange={onChange} />
                     </div>
                 </div>
             </div>
