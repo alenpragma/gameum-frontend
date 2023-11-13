@@ -8,6 +8,8 @@ import Partner from "./Partner";
 import Roadmap from "./Roadmap";
 import Team from "./Team";
 import Token from "./Token";
+import UpcommingMarket from "./UpcommingMarket";
+
 
 
 const Home = () => {
@@ -20,6 +22,7 @@ const Home = () => {
             <Roadmap />
             <Team />
             <Partner />
+      <UpcommingMarket/>
             <Faq/>
             <Documents />
         </div>
