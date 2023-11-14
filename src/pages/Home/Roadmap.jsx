@@ -14,13 +14,17 @@ const Roadmap = () => {
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
                     {
-                        roadmap.map(data => <div className="shadow bg-white text-black h-64 items-center rounded" key={data.id}>
+                        roadmap.map(data => <div className="shadow bg-white text-black h-70 items-center rounded" key={data.id}>
                             <div className="card-body py-10">
                                 <h2 className="text-center font-semibold font-serif text-2xl mb-3">{data.month}</h2>
                                 <div className="space-y-5">
-                                    <p><span className="mr-2">✵</span>{data.item1}</p>
-                                    <p><span className="mr-2">✵</span>{data.item2}</p>
-                                    <p><span className="mr-2">✵</span>{data.item3}</p>
+                                    {
+                                        data.items.map((item)=>(
+
+                                            <p><span className="mr-2">✵</span>{item}</p>
+                                        ))
+                                    }
+                             
                                 </div>
                             </div>
                         </div>)
